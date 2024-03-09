@@ -1,0 +1,146 @@
+C program to display the name :
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+char name[25];
+printf("enter the name");
+scanf (‘%s’&name);
+printf("\n your name is :%s",name);
+getch()
+return 0;
+}
+
+C program to display the int :
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+int number = 42;
+printf("%d",number);
+getch();
+}
+C program for swapping two values:
+#include
+void main()
+{
+int a,b,temp;
+printf("enter the number a= ");
+scanf("%d",&a);
+printf("enter the number b= ");
+scanf("%d",&b);
+temp=a;
+a=b;
+b=temp;
+printf("swapped values are:");
+printf("a = %d\n", a);
+printf("b = %d\n", b);
+return 0;
+}
+
+Write the program to check if the person is eligible for Driving License
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+int age;
+printf(“Enter the age of the person”);
+scanf(“%d”,&age);
+if(age>=18)
+printf(“You are eligible”);
+else
+printf(“You are not Eligible”);
+getch();
+
+}
+
+Write the program to find whether number is even or odd:
+#include<stdio.h>
+int main()
+{
+int number;
+printf("Enter the number");
+scanf("%d",&number);
+if(number%2==0)
+printf("Number %d is even",number);
+else
+printf("Number %d is odd",number);
+}
+
+C program to print A to Z
+#include<stdio.h>
+int main()
+{
+int i;
+for (i=65; i<=90; i++) 
+{
+printf("%c\t", i);
+}
+}
+C program to add an int :
+#include<stdio.h>
+int main()
+{
+int num1, num2, sum;
+printf("Enter first integer: ");
+scanf("%d", &num1);
+printf("Enter second integer: ");
+scanf("%d", &num2);
+sum = num1 + num2;
+printf("The sum is: %d\n", sum);
+return 0;
+}
+
+C program for strcat:
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()1
+char arr1[20], arr2[20];
+printf("Enter the first string:");
+scanf("%s", arr1);
+printf("Enter the second string:");
+scanf("%s", arr2);
+strcat(arr1,arr2);
+printf("The concatenated string is %s",
+arr1);
+getch();
+}
+C program for the strlen
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main() 
+int len;
+char str1[30]="Immunoelectrophoretically";
+len = strlen(str1);
+printf("The length of the string is %d", len);
+getch();
+}
+
+program for the strupr and strlwr
+#include<stdio.h>
+#include<conio.h>
+void main()
+char string 1[100] = "anyone who has never made a Mistake has never tried anything New.";
+strupr(string 1 );
+printf("Upper case: %s", string1);
+strlwr(string1);
+printf("\nLower case: %s", string1);
+getch();
+
+}
+*Write a C Program To find area and circumference of a circle*
+#include<stdio.h>
+main()
+{
+    float radius,area,perimeter;
+    printf("Enter The Radius of the Circle:");
+    scanf("%f",&radius);
+    area=3.14*radius*radius;
+    perimeter=2*3.14*radius;
+    printf("\n\nThe area of the circle with radius %f is %f",radius,area);
+    printf("\n\nThe Circumference of the circle is %f",perimeter);
+    getch();
+}
+
